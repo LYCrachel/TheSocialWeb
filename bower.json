@@ -1,0 +1,21 @@
+{
+  "name": "Onboarding cohort analysis",
+  "version": "0.1",
+  "authors": [],
+  "description": "Test for Temper Co.",
+  "license": "proprietary",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "jquery-ui": "1.11.4"
+  }
+}
