@@ -1,24 +1,30 @@
 # TheSocialWeb
 
+## Brief Introduction
+
 Project Assignment: Company Popularity On The Social Web _ Group 22
 
-This Github repository contains the scripts and data used in the project of the course Social Web of the Vrije Universiteit Amsterdam.
+This repository contains the scripts and data used in the project of the course Social Web of the Vrije Universiteit Amsterdam.
 
-It contains the code which has been build using PHP/HTML/CSS/JS technologies to produce the final dashboard that contains all statistics and analysis charts.
+## Technical related
 
-In order to run the code locally, two commands need to be run on the local machine (to get all dependencies packages)
+The project contains the code built with PHP/HTML/CSS/JS for generating the final dashboard that contains all statistics and analysis charts.
+
+To run the code on a local machine, two commands need to be executed to get all dependencies packages
 1. composer install
 2. bower install
 
-The folder /server/data contains the scripts of gathering and full data. 
-(ALL PYTHON FILES (.py) ARE CREATED AND RUNED IN PYCHARM ON PYTHON 2.7)
+## How it works
 
-All the gathered Twitter data can be found in the folder called: twitter_data. This folder contains the old restricted data, the full data, and the cleaned data used in the final version of the project in the respectivly folders old_twitter_data, new_twitter_data and KLM and Deloitte.
+* The folder */server/data* contains the scripts of gathering full data. 
+(ALL PYTHON FILES (.py) ARE CREATED AND RUN IN PYCHARM ON PYTHON 2.7)
 
-The old twitter data folder contains the data created with the use of the Python script called OldVersionTwitterScript.py. The folder also contains the set parameters in the run of the code.
+* All Twitter data gathered can be found in the folder *twitter_data*. This folder contains the old restricted data, the full data, and the cleaned data used in the final version of the project in folders *old_twitter_data*, *new_twitter_data*, and KLM and Deloitte, respectively.
 
-The new twitter data folder contains the data about the companies KLM and Deloite. The explanation also in folder contains a link to a folder with all data gathered, which were stored there due to the size limit of Github. The new twitter data is gathered by running 2 scripts. Gathering_of_tweets.py and Tweets_of_a_user.py. Gathering_of_tweets.py is for collecting the tweets about a company. The Tweets_of_a_user is used to gather tweets posted by a specific user.
+* The old twitter data folder contains the data created with the Python script *OldVersionTwitterScript.py*. The folder also contains the set parameters to run the code.
 
-Furthermore contains the folder the iPython notebook files for the scraping and API of different social media platforms: Facebook, LinkedIn and Youtube. These are developed, but were not used in the final project. An example result of the Facebook scraper has been stored in the img folder.
+* The new twitter data folder contains the data about the companies KLM and Deloite. The explanation in it also has a link to another folder with all data gathered, which were stored due to size limiting of Github. The new twitter data is gathered by running 2 scripts *Gathering_of_tweets.py* and *Tweets_of_a_user.py*. *Gathering_of_tweets.py* collects tweets about a company, while *Tweets_of_a_user.py* gathers tweets posted by a specific user.
+
+* iPython notebook files are also provided for the scraping and API of different social media platforms: Facebook, LinkedIn and Youtube. These were developed but not used in the final project. An example result of the Facebook scraper can be found in the *img* folder.
 
 
