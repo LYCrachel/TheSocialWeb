@@ -1,0 +1,22 @@
+The collected tweet data is collected at 2018-03-15 between 13:00 - 15:00
+For the tweets of specifc user accounts, the api limited the amount to the approxammitly recent 3200.
+The tweets about deloitte and klm can be found here: https://tinyurl.com/yaxlcduy
+
+This file contains information about the data of the tweets.
+For each type of data, the key of the dictionary is given below.
+
+Tweet text = 'text'
+Tweet likes = 'favorite_count'
+Symbols used = 'entities' -> 'symbols'
+Mentioned users = 'entities' -> 'user_mentions'
+Used hashtags (text and place in text) = 'entities' -> 'hashtags'
+The user name the tweet replies to = 'in_reply_to_screen_name'
+The tweet id the tweet replies to = 'in_reply_to_status_id'
+The id of the tweet = 'id' or 'id_str" (if you want the string version)
+The amount of times the tweet got retweeted = 'retweet_count'
+The amount of likes on the tweet = 'favorite_count'
+The time the tweet got posted = 'created_at'
+Information about the user that posted the tweet = 'user' (is another dictionary)
+User name = 'user' -> 'screen_name'
+User id = 'user' -> 'id'
+Information about the original tweet (if the tweet is a retweet) = 'retweeted_status'

@@ -15,7 +15,7 @@
                                 <option>Deloitte</option>
                             </select>
                         </div>
-                        <button class="btn btn-success col-md-4" onclick="getAccountData()">Get Account Data</button>
+                        <button class="btn btn-success col-md-4" onclick="getAccountData()">Get Data</button>
                     </div>
                 </div>
             </div>
